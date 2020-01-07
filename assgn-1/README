@@ -1,0 +1,7 @@
+Author: Vishal Damojipurapu
+
+This program simulates a shell. Inside this shell, you should be able to execute all unix commands. I would like to give credit to the TA's for helping me out with the psuedocode for the switch statement for piping. Calling infer should result in no issues. When I ran valgrind, there is some memory lost lex.l, but since it was written by the professor, I did not have to take care of it. myshell.c was ran through clang format, so it was appropriately formated and I added my own comments. 
+
+To run this program, type "make". Then, type ./myshell. You should see a ">>>" which tells you that you are inside my shell. Type "exit" to exit the shell. The make clean command is also supported.
+
+The 5 main files I am submitting are: Makefile, README, DESIGN.txt, myshell.c , and lex.l.
